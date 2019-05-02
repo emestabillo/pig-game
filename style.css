@@ -45,6 +45,9 @@ body {
     padding: 100px;
 }
 
+/***********
+CHALLENGES
+************/
 .final-score {
     position: absolute;
     left: 50%;
@@ -59,9 +62,10 @@ body {
     text-transform: uppercase;
 }
 
-.final-score:focus {
-    outline: none;
-}
+.final-score:focus { outline: none; }
+
+#dice-1 { top: 120px; }
+#dice-2 { top: 250px; }
 
 
 /**********************************************
